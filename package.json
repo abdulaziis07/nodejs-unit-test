@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "transform": {
+    "\\.[jt]sx?$": "babel-jest"
+  },
+  "keywords": [],
+  "author": "Abdul Azis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
